@@ -39,3 +39,5 @@ require (
 	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
+
+replace github.com/gohp/logger v0.3.2 => github.com/yazzyk/ylogger v1.0.0
