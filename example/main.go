@@ -4,7 +4,6 @@ import (
 	"context"
 	"errors"
 	"github.com/gin-gonic/gin"
-	"github.com/gohp/logger"
 	"github.com/spf13/pflag"
 )
 

@@ -1,4 +1,4 @@
-module github.com/gohp/logger
+module github.com/yazzyk/ylogger
 
 go 1.17
 

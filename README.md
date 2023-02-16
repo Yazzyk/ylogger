@@ -13,12 +13,12 @@
 
 - install logger with go get
 
-`go get -u github.com/gohp/logger`
+`go get -u github.com/yazzyk/ylogger`
 
 1. 新建logger
 ```go
 import (
- "github.com/gohp/logger"
+ "github.com/yazzyk/ylogger"
 )
 
 ...
@@ -60,7 +60,7 @@ c.SetCaller(true)
 
 ```go
 import (
- "github.com/gohp/logger"
+ "github.com/yazzyk/ylogger"
 )
 
 ...
@@ -91,7 +91,7 @@ logger.Debugf("debug level test: %s", "111")
 5. with args
 ```go
 import (
- "github.com/gohp/logger"
+ "github.com/yazzyk/ylogger"
 )
 
 ...
