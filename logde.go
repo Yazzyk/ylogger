@@ -235,7 +235,7 @@ func (c *LogOptions) InitLogger() *Log {
 	}
 
 	if c.caller {
-		opts = append(opts, zap.AddCaller())
+		opts = append(opts, zap.AddCallerSkip(1))
 	}
 
 	logger = zap.New(zapcore.NewTee(cos...), opts...)
